@@ -4,7 +4,7 @@ import ssl
 start_year = 2006
 end_year = 2017
 names = ["c1", "c2", "m1"] #Put the paper names you want here
-store = "/Users/John/Maths/Papers"#Put the directory you want the papers in here
+store = "/Users/John/Maths/Papers/"#Put the directory you want the papers in here
 #Do not modify from here down
 
 context = ssl._create_unverified_context()
