@@ -18,7 +18,7 @@ while count_year <= end_year:
 	ms_url = general_ms+str(count_year)+".pdf"
 	ms_data =  (urllib.request.urlopen(ms_url, context=context)).read()
 	print(str(count_year)+ " MS")
-	with open(store"Markschemes/"+str(count_year)+".pdf", "wb") as file:
+	with open(store+"Markschemes/"+str(count_year)+".pdf", "wb") as file:
 		file.write(ms_data)
 
 	for paper in names:
